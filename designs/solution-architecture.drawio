@@ -10,6 +10,12 @@
         <mxCell id="oJW8UGhNAXkty13G2p3x-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Code Commit&lt;/h1&gt;&lt;p&gt;Developers commit Terraform code to their feature branches in repository (Github or Azure Repo)&lt;/p&gt;" vertex="1">
           <mxGeometry height="100" width="210" x="59" y="226" as="geometry" />
         </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="240" x="360" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Merge Request&lt;/h1&gt;&lt;p&gt;Merge Request to push changes to main branch.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="210" x="379" y="222" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
