@@ -29,10 +29,16 @@
           <mxGeometry height="30" width="210" x="290" y="410" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="110" width="240" x="305" y="450" as="geometry" />
+          <mxGeometry height="140" width="240" x="305" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Lint Agent&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;HCL Style + Formatting&lt;/font&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="79" width="210" x="324" y="461" as="geometry" />
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SCA Agent&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Static Code Analysis, HCL Style + Formatting&lt;/span&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="99" width="210" x="324" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="140" width="240" x="570" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SCA Agent&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Static Code Analysis, HCL Style + Formatting&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="99" width="210" x="589" y="463" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
