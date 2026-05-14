@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-13" edge="1" parent="1" source="oJW8UGhNAXkty13G2p3x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IWc9zJM8tDhvkjJ2dRjy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oJW8UGhNAXkty13G2p3x-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="240" x="440" y="200" as="geometry" />
         </mxCell>
@@ -11,10 +14,13 @@
           <mxGeometry height="100" width="210" x="459" y="226" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="160" width="240" x="760" y="196" as="geometry" />
+          <mxGeometry height="160" width="240" x="760" y="200" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Merge Request&lt;/h1&gt;&lt;p&gt;Merge Request to push changes to main branch.&lt;/p&gt;" vertex="1">
           <mxGeometry height="100" width="210" x="779" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-12" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oJW8UGhNAXkty13G2p3x-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="240" x="120" y="200" as="geometry" />
@@ -39,6 +45,9 @@
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Compliance Agent&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;CIS Check&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Security rulebook in Confluence Wiki&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="127" width="269" x="690" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-11" edge="1" parent="1" source="oJW8UGhNAXkty13G2p3x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.389;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" target="IWc9zJM8tDhvkjJ2dRjy-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
