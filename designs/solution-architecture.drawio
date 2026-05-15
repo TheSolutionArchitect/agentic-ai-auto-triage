@@ -21,10 +21,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="160" width="240" x="1200" y="200" as="geometry" />
+          <mxGeometry height="160" width="240" x="1084" y="200" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pull Request&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Pull Request to push changes to main branch.&lt;/font&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="100" width="210" x="1219" y="222" as="geometry" />
+          <mxGeometry height="100" width="210" x="1103" y="222" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-12" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" target="oJW8UGhNAXkty13G2p3x-1">
           <mxGeometry relative="1" as="geometry" />
@@ -36,40 +36,40 @@
           <mxGeometry height="100" width="210" x="139" y="226" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="400" width="880" x="120" y="400" as="geometry" />
+          <mxGeometry height="400" width="880" x="120" y="422" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;On push to any branch&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="210" x="139" y="416.5" as="geometry" />
+          <mxGeometry height="30" width="210" x="139" y="438.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="241.5" width="316" x="154" y="468.5" as="geometry" />
+          <mxGeometry height="241.5" width="316" x="154" y="490.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SCA Agent&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: normal;&quot;&gt;Static Code Analysis&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: normal;&quot;&gt;Security Vulnerability&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: normal;&quot;&gt;HCL Style and formatting&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="183" width="306" x="173" y="482.5" as="geometry" />
+          <mxGeometry height="183" width="306" x="173" y="504.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="241.5" width="461" x="507" y="468.5" as="geometry" />
+          <mxGeometry height="241.5" width="461" x="507" y="490.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Compliance Agent (Confluence Wiki)&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;CIS Check&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Coding Standards&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Tagging Strategy&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Architecture Patterns&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Standard Operating Procedures&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="218.5" width="261" x="527" y="481.5" as="geometry" />
+          <mxGeometry height="218.5" width="261" x="527" y="503.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-11" edge="1" parent="1" source="oJW8UGhNAXkty13G2p3x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="400" width="1720" x="1080" y="400" as="geometry" />
+          <mxGeometry height="400" width="2090" x="1080" y="422" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;On every Pull Request (PR) to merge changes to main branch: &lt;b&gt;review-and-fix &lt;/b&gt;loop&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="740" x="1110" y="416.5" as="geometry" />
+          <mxGeometry height="30" width="740" x="1110" y="438.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-22" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.221;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" target="IWc9zJM8tDhvkjJ2dRjy-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="233" width="345" x="1105" y="467" as="geometry" />
+          <mxGeometry height="233" width="345" x="1105" y="489" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Peer Review Agent (GitHub)&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Review the code&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Add review comments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Set severity and confidence scores for each findings.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="209" width="306" x="1124" y="481" as="geometry" />
+          <mxGeometry height="209" width="306" x="1124" y="503" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-23" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.831;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" target="IWc9zJM8tDhvkjJ2dRjy-16">
           <mxGeometry relative="1" as="geometry" />
@@ -78,37 +78,42 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="210" width="500" x="1590" y="467" as="geometry" />
+          <mxGeometry height="210" width="500" x="1590" y="489" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Auto Fix Agent (GitHub)&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Automatically fix the code where the confidence score is greater than 0.6, and the severity is MEDIUM or LOW.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Create a report for the fixed and unresolved items.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="192" width="440" x="1610" y="478" as="geometry" />
+          <mxGeometry height="192" width="440" x="1610" y="500" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-20" parent="1" style="text;whiteSpace=wrap;fontSize=18;align=center;" value="Set severity and confidence scores for each finding.&#xa;Severity scores are defined by HIGH, MEDIUM, and LOW. The confidence score is between 0 and 1." vertex="1">
-          <mxGeometry height="50.5" width="830" x="150" y="726.5" as="geometry" />
+          <mxGeometry height="50.5" width="830" x="150" y="748.5" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-21" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.139;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-21" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1204" y="422" />
+            </Array>
+            <mxPoint x="1204" y="422" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;fix code&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="82" x="1482" y="481" as="geometry" />
+          <mxGeometry height="30" width="82" x="1482" y="503" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;review the fix (update same pull request)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="67" width="120" x="1458" y="563" as="geometry" />
+          <mxGeometry height="67" width="120" x="1458" y="585" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;End the review-and-fix loop when there is no item left to fix where the confidence score is greater than 0.6, and the severity is in MEDIUM or LOW&lt;/font&gt;" vertex="1">
-          <mxGeometry height="50" width="980" x="1110" y="711.5" as="geometry" />
+          <mxGeometry height="50" width="980" x="1462.75" y="742" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-30" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="IWc9zJM8tDhvkjJ2dRjy-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="219" width="550" x="2210" y="460" as="geometry" />
+          <mxGeometry height="219" width="670" x="2442.75" y="490.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-28" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ITSM Agent (JIRA)&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Create a JIRA incident Task with the peer review comments, severity, and confidence score of each finding.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Add a comment in the JIRA task with details of fix by Auto Fix Agent.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="191" width="510" x="2230" y="479" as="geometry" />
+          <mxGeometry height="191" width="630" x="2462.75" y="509.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Create &amp;amp; Update JIRA&lt;/font&gt;" vertex="1">
-          <mxGeometry height="57.5" width="102" x="2100" y="539" as="geometry" />
+          <mxGeometry height="57.5" width="102" x="2100" y="561" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-39" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-37">
           <mxGeometry relative="1" as="geometry" />
@@ -151,8 +156,12 @@
             <mxPoint x="2610" y="279.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-45" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.951;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-45" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.782;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="2795" y="360" as="sourcePoint" />
+            <mxPoint x="2794.38" y="426" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-46" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" value="END" vertex="1">
           <mxGeometry height="80" width="80" x="3120" y="236" as="geometry" />
@@ -161,10 +170,10 @@
           <mxGeometry height="57.5" width="160" x="2950" y="218" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-50" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Policy and Governance guide&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Service Level Agreement (SLA)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Service criticality and dependency&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="200" width="240" x="723" y="505" as="geometry" />
+          <mxGeometry height="200" width="240" x="723" y="527" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-51" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" value="" vertex="1">
-          <mxGeometry height="1962.12" width="69.25" x="2141.82" y="-838.43" as="geometry" />
+          <mxGeometry height="2068.43" width="69.25" x="2088.67" y="-891.58" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="190" width="520" x="1922.75" y="-80" as="geometry" />
