@@ -123,16 +123,28 @@
           <mxGeometry height="60" width="248" x="1570" y="210" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="160" width="370" x="2240" y="196" as="geometry" />
+          <mxGeometry height="160" width="370" x="2160" y="196" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-38" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Initiate Terraform Deployment Pipeline&lt;/h1&gt;&lt;p&gt;Initiate GitHub pipeline to deploy Terraform in the target environment.&amp;nbsp;&amp;nbsp;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="112" width="341" x="2259" y="218" as="geometry" />
+          <mxGeometry height="112" width="341" x="2179" y="218" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-41" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oJW8UGhNAXkty13G2p3x-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" value="START" vertex="1">
           <mxGeometry height="80" width="80" x="520" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="370" x="2640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-43" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Monitor Agent&lt;/h1&gt;&lt;p&gt;Monitor the deployment pipeline.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;or any deployment issue, create JIRA task and initiate review-and-fix loop.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="112" width="341" x="2659" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2530" y="279.5" as="sourcePoint" />
+            <mxPoint x="2610" y="279.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
