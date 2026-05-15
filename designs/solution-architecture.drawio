@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="process-flow" id="llQ14HlxIDWXj9B5HY60">
-    <mxGraphModel dx="1245" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2490" dy="2376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,7 +164,7 @@
           <mxGeometry height="200" width="240" x="723" y="505" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-51" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" value="" vertex="1">
-          <mxGeometry height="1949.5" width="44" x="2160.75" y="-835.75" as="geometry" />
+          <mxGeometry height="1962.12" width="69.25" x="2141.82" y="-838.43" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="190" width="520" x="1922.75" y="-80" as="geometry" />
