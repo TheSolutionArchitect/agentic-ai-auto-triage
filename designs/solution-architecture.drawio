@@ -59,7 +59,7 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;dashed=1;dashPattern=8 8;" value="" vertex="1">
           <mxGeometry height="400" width="1720" x="1080" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;On every Pull Request (PR) to merge changes to main branch: &lt;b&gt;review-and-fix&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;On every Pull Request (PR) to merge changes to main branch: &lt;b&gt;review-and-fix &lt;/b&gt;loop&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="740" x="1090" y="415" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-22" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.221;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" target="IWc9zJM8tDhvkjJ2dRjy-18">
