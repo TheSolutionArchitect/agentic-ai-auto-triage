@@ -50,10 +50,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="320" width="720" x="1080" y="400" as="geometry" />
+          <mxGeometry height="320" width="840" x="1080" y="400" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;On Pull Request to merge changes to main branch&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="440" x="1090" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-22" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="IWc9zJM8tDhvkjJ2dRjy-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="210" width="345" x="1105" y="467" as="geometry" />
@@ -61,17 +64,26 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Peer Review Agent&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Review the code&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Add review comments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Set severity and confidence scores for each findings.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
           <mxGeometry height="179" width="306" x="1124" y="481" as="geometry" />
         </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-23" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="IWc9zJM8tDhvkjJ2dRjy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="210" width="300" x="1470" y="467" as="geometry" />
+          <mxGeometry height="210" width="300" x="1590" y="467" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Auto Fix Agent&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Automatically fix the code where the confidence score is more than 0.6 in the 0 to 1 range.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Create a report for the fixed and unresolved items.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="160" width="269" x="1490" y="480" as="geometry" />
+          <mxGeometry height="160" width="269" x="1610" y="478" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-20" parent="1" style="text;whiteSpace=wrap;fontSize=18;" value="Set severity and confidence scores for each findings." vertex="1">
           <mxGeometry height="40" width="440" x="450" y="690" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-21" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.333;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="IWc9zJM8tDhvkjJ2dRjy-14">
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-21" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.285;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="IWc9zJM8tDhvkjJ2dRjy-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;fix code&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="1452" y="481" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;review the fix&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="1458" y="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
