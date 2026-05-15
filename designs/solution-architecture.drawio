@@ -10,7 +10,7 @@
         <mxCell id="oJW8UGhNAXkty13G2p3x-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="240" x="440" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="oJW8UGhNAXkty13G2p3x-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Code Commit&lt;/h1&gt;&lt;p&gt;Developers commit Terraform code to their feature branches in repository (Github or Azure Repo)&lt;/p&gt;" vertex="1">
+        <mxCell id="oJW8UGhNAXkty13G2p3x-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Code Commit&lt;/h1&gt;&lt;p&gt;Developers commit Terraform code to their feature branches in GitHub repository.&lt;/p&gt;" vertex="1">
           <mxGeometry height="100" width="210" x="459" y="226" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-35" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.279;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-33">
