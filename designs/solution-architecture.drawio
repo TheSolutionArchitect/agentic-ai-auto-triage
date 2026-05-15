@@ -128,13 +128,13 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-38" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Initiate Terraform Deployment Pipeline&lt;/h1&gt;&lt;p&gt;Initiate GitHub pipeline to deploy Terraform in the target environment.&amp;nbsp;&amp;nbsp;&lt;/p&gt;" vertex="1">
           <mxGeometry height="112" width="341" x="2179" y="218" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-41" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oJW8UGhNAXkty13G2p3x-1">
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-41" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" target="oJW8UGhNAXkty13G2p3x-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" value="START" vertex="1">
           <mxGeometry height="80" width="80" x="520" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-47" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-47" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=5;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3200" y="280" as="targetPoint" />
           </mxGeometry>
