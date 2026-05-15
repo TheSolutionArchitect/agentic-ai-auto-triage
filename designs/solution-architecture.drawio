@@ -58,8 +58,8 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="210" width="345" x="1105" y="467" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Peer Review Agent&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Review the code&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Add review comments&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="129" width="306" x="1124" y="481" as="geometry" />
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Peer Review Agent&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Review the code&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Add review comments&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Set severity and confidence scores for each findings.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="179" width="306" x="1124" y="481" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="210" width="300" x="1470" y="467" as="geometry" />
