@@ -50,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="320" width="840" x="1080" y="400" as="geometry" />
+          <mxGeometry height="400" width="1040" x="1080" y="400" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;On every Pull Request (PR) to merge changes to main branch&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="510" x="1090" y="415" as="geometry" />
@@ -68,10 +68,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="210" width="300" x="1590" y="467" as="geometry" />
+          <mxGeometry height="210" width="500" x="1590" y="467" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Auto Fix Agent&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Automatically fix the code where the confidence score is more than 0.6 in the 0 to 1 range.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Create a report for the fixed and unresolved items.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="160" width="269" x="1610" y="478" as="geometry" />
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Auto Fix Agent&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Automatically fix the code where the confidence score is greater than 0.6, and the severity is MEDIUM or LOW.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Create a report for the fixed and unresolved items.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="192" width="440" x="1610" y="478" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-20" parent="1" style="text;whiteSpace=wrap;fontSize=18;align=center;" value="Set severity and confidence scores for each finding.&#xa;Severity scores are defined by HIGH, MEDIUM, and LOW.&#xa;The confidence score is between 0 and 1." vertex="1">
           <mxGeometry height="77" width="640" x="320" y="698" as="geometry" />
