@@ -119,6 +119,12 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Call &#39;Human Approval&#39; after completing review-and-fix loop&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="248" x="1570" y="210" as="geometry" />
         </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="370" x="2240" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-38" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Initiate Terraform Deployment Pipeline&lt;/h1&gt;&lt;p&gt;Initiate GitHub pipeline to deploy Terraform in the target environment.&amp;nbsp;&amp;nbsp;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="112" width="341" x="2259" y="218" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
