@@ -1,0 +1,67 @@
+[
+  {
+    "id": "f1000000-0000-0000-0000-000000000001",
+    "file_path": "modules/storage/main.tf",
+    "line_ref": "L12",
+    "severity": "HIGH",
+    "confidence": 0.92,
+    "category": "encryption_disabled",
+    "rationale": "S3 bucket does not have server-side encryption enabled.",
+    "fix_recommendation": "Add server_side_encryption_configuration block with AES256 or aws:kms.",
+    "fix_type": "auto_fix_allowed",
+    "source": "peer_review",
+    "resolved": false
+  },
+  {
+    "id": "f2000000-0000-0000-0000-000000000002",
+    "file_path": "modules/network/main.tf",
+    "line_ref": "L45",
+    "severity": "HIGH",
+    "confidence": 0.98,
+    "category": "public_network_exposure",
+    "rationale": "Security group allows 0.0.0.0/0 ingress on port 22.",
+    "fix_recommendation": "Restrict SSH ingress to a specific CIDR or use SSM instead.",
+    "fix_type": "human_required",
+    "source": "iac_scanner",
+    "resolved": false
+  },
+  {
+    "id": "f3000000-0000-0000-0000-000000000003",
+    "file_path": "modules/storage/main.tf",
+    "line_ref": "L8",
+    "severity": "MEDIUM",
+    "confidence": 0.75,
+    "category": "missing_tags",
+    "rationale": "S3 bucket is missing required cost allocation tags.",
+    "fix_recommendation": "Add tags block with Environment, Owner, and CostCenter.",
+    "fix_type": "auto_fix_allowed",
+    "source": "peer_review",
+    "resolved": false
+  },
+  {
+    "id": "f4000000-0000-0000-0000-000000000004",
+    "file_path": "modules/iam/main.tf",
+    "line_ref": "L22",
+    "severity": "HIGH",
+    "confidence": 0.95,
+    "category": "iam_privilege_expansion",
+    "rationale": "IAM policy grants iam:* permissions which expands privileges.",
+    "fix_recommendation": "Replace iam:* with the specific IAM actions required.",
+    "fix_type": "human_required",
+    "source": "iac_scanner",
+    "resolved": false
+  },
+  {
+    "id": "f5000000-0000-0000-0000-000000000005",
+    "file_path": "modules/storage/main.tf",
+    "line_ref": "L3",
+    "severity": "LOW",
+    "confidence": 0.65,
+    "category": "naming_convention",
+    "rationale": "Resource name does not follow the org naming convention.",
+    "fix_recommendation": "Rename to match pattern: <env>-<team>-<resource>.",
+    "fix_type": "auto_fix_allowed",
+    "source": "peer_review",
+    "resolved": false
+  }
+]

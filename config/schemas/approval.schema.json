@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "approval.schema.json",
+  "title": "Approval",
+  "type": "object",
+  "required": ["decision", "approver", "scope", "timestamp"],
+  "additionalProperties": false,
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": ["approve", "reject", "request_changes", "defer", "approve_with_exception"]
+    },
+    "approver": { "type": "string", "format": "email" },
+    "comment": { "type": "string" },
+    "scope": {
+      "type": "string",
+      "enum": ["pr_review", "terraform_plan", "auto_fix", "exception", "break_glass"]
+    },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "expires_at": { "type": "string", "format": "date-time" },
+    "run_id": { "type": "string" }
+  }
+}

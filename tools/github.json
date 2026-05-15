@@ -1,0 +1,46 @@
+{
+  "name": "github",
+  "type": "mcp",
+  "server": {
+    "transport": "streamable_http",
+    "url": "https://api.githubcopilot.com/mcp/",
+    "auth": {
+      "type": "bearer",
+      "token_env": "GITHUB_MCP_TOKEN"
+    }
+  },
+  "repositories": [
+    {
+      "owner": "example-org",
+      "name": "terraform-infra",
+      "allowed_branches": ["main"],
+      "protected_branches": ["main"]
+    }
+  ],
+  "allowed_tools": [
+    "repos.get",
+    "repos.get_content",
+    "repos.list_commits",
+    "pull_requests.get",
+    "pull_requests.list",
+    "pull_requests.list_files",
+    "pull_requests.create_review_comment",
+    "pull_requests.create_review",
+    "pull_requests.update_branch",
+    "issues.create",
+    "issues.update",
+    "actions.list_workflow_runs",
+    "actions.get_workflow_run",
+    "actions.rerun_workflow"
+  ],
+  "disallowed_tools": [
+    "repos.delete",
+    "repos.update",
+    "pull_requests.merge",
+    "branches.delete"
+  ],
+  "approval_policy": {
+    "write_operations": "human_or_policy_approved",
+    "merge_operations": "external_branch_protection"
+  }
+}

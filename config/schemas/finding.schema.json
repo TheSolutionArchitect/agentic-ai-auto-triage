@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "finding.schema.json",
+  "title": "Finding",
+  "type": "object",
+  "required": ["id", "file_path", "severity", "confidence", "category", "rationale", "fix_recommendation", "fix_type"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "file_path": { "type": "string" },
+    "line_ref": { "type": "string" },
+    "severity": { "type": "string", "enum": ["HIGH", "MEDIUM", "LOW"] },
+    "confidence": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+    "category": { "type": "string" },
+    "rationale": { "type": "string" },
+    "fix_recommendation": { "type": "string" },
+    "fix_type": { "type": "string", "enum": ["auto_fix_allowed", "human_required", "informational"] },
+    "source": { "type": "string" },
+    "resolved": { "type": "boolean" },
+    "resolution_notes": { "type": "string" }
+  }
+}

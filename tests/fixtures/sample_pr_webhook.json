@@ -1,0 +1,24 @@
+{
+  "action": "opened",
+  "number": 42,
+  "pull_request": {
+    "number": 42,
+    "html_url": "https://github.com/example-org/terraform-infra/pull/42",
+    "title": "feat: add S3 bucket with encryption",
+    "user": {"login": "developer"},
+    "head": {
+      "ref": "feature/s3-encryption",
+      "sha": "abc123def456abc123def456abc123def456abc1"
+    },
+    "base": {
+      "ref": "main",
+      "sha": "def456abc123def456abc123def456abc123def4"
+    }
+  },
+  "repository": {
+    "name": "terraform-infra",
+    "full_name": "example-org/terraform-infra",
+    "default_branch": "main",
+    "owner": {"login": "example-org"}
+  }
+}

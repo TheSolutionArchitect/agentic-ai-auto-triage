@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "config.schema.json",
+  "title": "AgenticTerraformDevops Config",
+  "type": "object",
+  "required": ["version", "workflow", "llm", "state", "tools", "risk_policy", "notifications"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "workflow": {
+      "type": "object",
+      "required": [
+        "name", "default_environment", "max_auto_fix_iterations",
+        "require_pr_approval", "require_plan_approval",
+        "allowed_target_branches", "evidence_retention_days"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "default_environment": { "type": "string", "enum": ["dev", "test", "stage", "prod"] },
+        "max_auto_fix_iterations": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "max_files_per_auto_fix": { "type": "integer", "minimum": 1, "maximum": 50 },
+        "require_pr_approval": { "type": "boolean" },
+        "require_plan_approval": {
+          "type": "object",
+          "properties": {
+            "dev":   { "type": "boolean" },
+            "test":  { "type": "boolean" },
+            "stage": { "type": "boolean" },
+            "prod":  { "type": "boolean" }
+          },
+          "additionalProperties": false
+        },
+        "allowed_target_branches": {
+          "type": "array", "items": { "type": "string" }, "minItems": 1
+        },
+        "evidence_retention_days": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "llm": {
+      "type": "object",
+      "required": ["provider", "model", "temperature", "max_output_tokens", "api_key_env"],
+      "additionalProperties": false,
+      "properties": {
+        "provider": { "type": "string", "enum": ["openai", "anthropic"] },
+        "model": { "type": "string" },
+        "temperature": { "type": "number", "minimum": 0, "maximum": 2 },
+        "max_output_tokens": { "type": "integer", "minimum": 100 },
+        "api_key_env": { "type": "string" },
+        "fallback": {
+          "type": "object",
+          "required": ["provider", "model", "api_key_env"],
+          "additionalProperties": false,
+          "properties": {
+            "provider": { "type": "string", "enum": ["openai", "anthropic"] },
+            "model": { "type": "string" },
+            "api_key_env": { "type": "string" }
+          }
+        }
+      }
+    },
+    "state": {
+      "type": "object",
+      "required": ["checkpointer"],
+      "additionalProperties": false,
+      "properties": {
+        "checkpointer": {
+          "type": "object",
+          "required": ["type", "connection_string_env"],
+          "properties": {
+            "type": { "type": "string", "enum": ["postgres", "memory"] },
+            "connection_string_env": { "type": "string" }
+          }
+        },
+        "artifact_store": {
+          "type": "object",
+          "required": ["type", "bucket_env"],
+          "properties": {
+            "type": { "type": "string", "enum": ["s3", "local"] },
+            "bucket_env": { "type": "string" },
+            "kms_key_env": { "type": "string" },
+            "local_path": { "type": "string" }
+          }
+        }
+      }
+    },
+    "tools": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["enabled", "config_file"],
+        "properties": {
+          "enabled": { "type": "boolean" },
+          "config_file": { "type": "string" }
+        }
+      }
+    },
+    "risk_policy": {
+      "type": "object",
+      "required": ["auto_fix", "never_auto_fix_categories", "block_merge_on", "block_apply_on"],
+      "additionalProperties": false,
+      "properties": {
+        "auto_fix": {
+          "type": "object",
+          "required": ["HIGH", "MEDIUM", "LOW"],
+          "properties": {
+            "HIGH":   { "type": "number", "minimum": 0, "maximum": 1 },
+            "MEDIUM": { "type": "number", "minimum": 0, "maximum": 1 },
+            "LOW":    { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        },
+        "never_auto_fix_categories": { "type": "array", "items": { "type": "string" } },
+        "block_merge_on": { "type": "array", "items": { "type": "string" } },
+        "block_apply_on": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "notifications": {
+      "type": "object",
+      "required": ["default_channel", "approval_channel", "incident_channel"],
+      "additionalProperties": false,
+      "properties": {
+        "default_channel":  { "type": "string" },
+        "approval_channel": { "type": "string" },
+        "incident_channel": { "type": "string" }
+      }
+    }
+  }
+}

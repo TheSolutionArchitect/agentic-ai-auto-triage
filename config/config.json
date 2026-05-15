@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "workflow": {
+    "name": "terraform-agentic-devops",
+    "default_environment": "dev",
+    "max_auto_fix_iterations": 3,
+    "max_files_per_auto_fix": 10,
+    "require_pr_approval": true,
+    "require_plan_approval": {
+      "dev": false,
+      "test": true,
+      "stage": true,
+      "prod": true
+    },
+    "allowed_target_branches": ["main"],
+    "evidence_retention_days": 365
+  },
+  "llm": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-6",
+    "temperature": 0.1,
+    "max_output_tokens": 6000,
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "fallback": {
+      "provider": "openai",
+      "model": "gpt-4o",
+      "api_key_env": "OPENAI_API_KEY"
+    }
+  },
+  "state": {
+    "checkpointer": {
+      "type": "postgres",
+      "connection_string_env": "LANGGRAPH_POSTGRES_URL"
+    },
+    "artifact_store": {
+      "type": "s3",
+      "bucket_env": "EVIDENCE_BUCKET",
+      "kms_key_env": "EVIDENCE_KMS_KEY_ID"
+    }
+  },
+  "tools": {
+    "github": {
+      "enabled": true,
+      "config_file": "tools/github.json"
+    },
+    "jira": {
+      "enabled": true,
+      "config_file": "tools/jira.json"
+    },
+    "confluence": {
+      "enabled": true,
+      "config_file": "tools/confluence.json"
+    },
+    "slack": {
+      "enabled": true,
+      "config_file": "tools/slack.json"
+    },
+    "terraform": {
+      "enabled": true,
+      "config_file": "tools/terraform.json"
+    },
+    "iac_scanner": {
+      "enabled": true,
+      "config_file": "tools/iac_scanner.json"
+    }
+  },
+  "risk_policy": {
+    "auto_fix": {
+      "HIGH": 0.85,
+      "MEDIUM": 0.70,
+      "LOW": 0.60
+    },
+    "never_auto_fix_categories": [
+      "terraform_backend_change",
+      "state_migration",
+      "resource_destroy",
+      "iam_privilege_expansion",
+      "public_network_exposure",
+      "provider_major_upgrade",
+      "production_database_change"
+    ],
+    "block_merge_on": ["HIGH"],
+    "block_apply_on": ["HIGH", "unapproved_destroy"]
+  },
+  "notifications": {
+    "default_channel": "#terraform-deployments",
+    "approval_channel": "#terraform-approvals",
+    "incident_channel": "#platform-incidents"
+  }
+}

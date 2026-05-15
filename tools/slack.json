@@ -1,0 +1,33 @@
+{
+  "name": "slack",
+  "type": "mcp",
+  "server": {
+    "transport": "streamable_http",
+    "url": "https://slack.com/mcp",
+    "auth": {
+      "type": "oauth2",
+      "token_env": "SLACK_MCP_TOKEN"
+    }
+  },
+  "channels": {
+    "default": "#terraform-deployments",
+    "approvals": "#terraform-approvals",
+    "incidents": "#platform-incidents"
+  },
+  "allowed_tools": [
+    "slack.search",
+    "slack.send_message",
+    "slack.read_thread",
+    "slack.create_canvas",
+    "slack.update_canvas"
+  ],
+  "disallowed_tools": [
+    "slack.delete_message",
+    "slack.archive_channel",
+    "slack.kick_user"
+  ],
+  "message_policy": {
+    "include_sensitive_values": false,
+    "thread_per_run": true
+  }
+}

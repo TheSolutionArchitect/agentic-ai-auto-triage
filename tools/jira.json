@@ -1,0 +1,32 @@
+{
+  "name": "jira",
+  "type": "mcp",
+  "server": {
+    "transport": "streamable_http",
+    "url": "https://mcp.atlassian.com/v1/mcp/authv2",
+    "auth": {
+      "type": "oauth2_or_token",
+      "token_env": "ATLASSIAN_MCP_TOKEN"
+    }
+  },
+  "project_key": "DEVOPS",
+  "issue_type": "Incident",
+  "allowed_tools": [
+    "jira.search",
+    "jira.get_issue",
+    "jira.create_issue",
+    "jira.update_issue",
+    "jira.add_comment",
+    "jira.get_project"
+  ],
+  "disallowed_tools": [
+    "jira.delete_issue",
+    "jira.delete_project"
+  ],
+  "field_mapping": {
+    "severity": "customfield_severity",
+    "confidence": "customfield_confidence",
+    "environment": "customfield_environment",
+    "run_id": "customfield_agent_run_id"
+  }
+}

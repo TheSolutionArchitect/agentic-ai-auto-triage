@@ -1,0 +1,24 @@
+{
+  "name": "confluence",
+  "type": "mcp",
+  "server": {
+    "transport": "streamable_http",
+    "url": "https://mcp.atlassian.com/v1/mcp/authv2",
+    "auth": {
+      "type": "oauth2_or_token",
+      "token_env": "ATLASSIAN_MCP_TOKEN"
+    }
+  },
+  "space_key": "INFRASEC",
+  "allowed_tools": [
+    "confluence.get_page",
+    "confluence.search",
+    "confluence.get_space",
+    "confluence.get_children"
+  ],
+  "disallowed_tools": [
+    "confluence.create_page",
+    "confluence.update_page",
+    "confluence.delete_page"
+  ]
+}

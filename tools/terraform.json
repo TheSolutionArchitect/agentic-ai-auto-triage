@@ -1,0 +1,34 @@
+{
+  "name": "terraform",
+  "type": "mcp",
+  "server": {
+    "transport": "stdio",
+    "command": "terraform-mcp-server",
+    "args": [],
+    "env": {
+      "TFE_TOKEN": "TFE_TOKEN"
+    }
+  },
+  "mode": "advisory_and_metadata",
+  "allowed_tools": [
+    "registry.search_providers",
+    "registry.get_provider_docs",
+    "registry.search_modules",
+    "registry.get_module_docs",
+    "hcp_terraform.list_workspaces",
+    "hcp_terraform.get_workspace",
+    "hcp_terraform.get_run",
+    "hcp_terraform.list_runs"
+  ],
+  "disallowed_tools": [
+    "hcp_terraform.delete_workspace",
+    "hcp_terraform.update_workspace_variables",
+    "hcp_terraform.force_cancel_run",
+    "hcp_terraform.apply_run"
+  ],
+  "execution_policy": {
+    "plan": "ci_cd_only",
+    "apply": "ci_cd_only",
+    "destroy": "disabled"
+  }
+}
