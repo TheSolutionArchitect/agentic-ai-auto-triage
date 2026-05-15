@@ -67,6 +67,9 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-23" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="IWc9zJM8tDhvkjJ2dRjy-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-31" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.285;entryDx=0;entryDy=0;entryPerimeter=0;" target="IWc9zJM8tDhvkjJ2dRjy-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="210" width="500" x="1590" y="467" as="geometry" />
         </mxCell>
@@ -88,11 +91,17 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;End the review-and-fix loop when there is no item left to fix where the confidence score is greater than 0.6, and the severity is in MEDIUM or LOW&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="980" x="1110" y="711.5" as="geometry" />
         </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-30" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="IWc9zJM8tDhvkjJ2dRjy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="215" width="590" x="2170" y="465" as="geometry" />
+          <mxGeometry height="219" width="550" x="2210" y="460" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-28" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;JIRA Agent&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Create a JIRA incident Task with the peer review comments, severity, and confidence score of each finding.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Add a comment in the JIRA task with details of fix by Auto Fix Agent.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="191" width="551" x="2189" y="479" as="geometry" />
+          <mxGeometry height="191" width="510" x="2230" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Create &amp;amp; Update JIRA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="57.5" width="102" x="2100" y="539" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
