@@ -42,16 +42,16 @@
           <mxGeometry height="30" width="210" x="139" y="416.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="241.5" width="345" x="154" y="468.5" as="geometry" />
+          <mxGeometry height="241.5" width="316" x="154" y="468.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SCA Agent&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: normal;&quot;&gt;Static Code Analysis&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: normal;&quot;&gt;Security Vulnerability&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px; font-weight: normal;&quot;&gt;HCL Style and formatting&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;/h1&gt;" vertex="1">
           <mxGeometry height="183" width="306" x="173" y="482.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="241.5" width="461" x="519" y="468.5" as="geometry" />
+          <mxGeometry height="241.5" width="461" x="507" y="468.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Compliance Agent (Confluence Wiki)&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;CIS Check&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Coding Standards&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Tagging Strategy&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Architecture Patterns&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Standard Operating Procedures&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="218.5" width="261" x="539" y="481.5" as="geometry" />
+          <mxGeometry height="218.5" width="261" x="527" y="481.5" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-11" edge="1" parent="1" source="oJW8UGhNAXkty13G2p3x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-5">
           <mxGeometry relative="1" as="geometry" />
@@ -161,7 +161,7 @@
           <mxGeometry height="57.5" width="160" x="2950" y="218" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-50" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Policy and Governance guide&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Service Level Agreement (SLA)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Service criticality and dependency&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="200" width="240" x="735" y="505" as="geometry" />
+          <mxGeometry height="200" width="240" x="723" y="505" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
