@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-13" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="IWc9zJM8tDhvkjJ2dRjy-1">
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-13" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oJW8UGhNAXkty13G2p3x-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -13,7 +13,7 @@
         <mxCell id="oJW8UGhNAXkty13G2p3x-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Code Commit&lt;/h1&gt;&lt;p&gt;Developers commit Terraform code to their feature branches in repository (Github or Azure Repo)&lt;/p&gt;" vertex="1">
           <mxGeometry height="100" width="210" x="459" y="226" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-35" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.279;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" target="IWc9zJM8tDhvkjJ2dRjy-33">
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-35" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.279;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1560" y="276" />
@@ -26,7 +26,7 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pull Request&lt;/h1&gt;&lt;p&gt;Pull Request to push changes to main branch.&lt;/p&gt;" vertex="1">
           <mxGeometry height="100" width="210" x="1219" y="222" as="geometry" />
         </mxCell>
-        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-12" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oJW8UGhNAXkty13G2p3x-1">
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-12" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" target="oJW8UGhNAXkty13G2p3x-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -109,6 +109,9 @@
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Create &amp;amp; Update JIRA&lt;/font&gt;" vertex="1">
           <mxGeometry height="57.5" width="102" x="2100" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-39" edge="1" parent="1" source="IWc9zJM8tDhvkjJ2dRjy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" target="IWc9zJM8tDhvkjJ2dRjy-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="240" x="1840" y="196" as="geometry" />
