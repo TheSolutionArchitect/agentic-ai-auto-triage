@@ -116,6 +116,9 @@
         <mxCell id="IWc9zJM8tDhvkjJ2dRjy-34" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Human Approval&lt;/h1&gt;&lt;p&gt;Human in the middle to approve the pull request after manually checking the auto fix reports and changes.&amp;nbsp;&lt;/p&gt;" vertex="1">
           <mxGeometry height="100" width="210" x="1659" y="218" as="geometry" />
         </mxCell>
+        <mxCell id="IWc9zJM8tDhvkjJ2dRjy-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Call &#39;Human Approval&#39; after completing review-and-fix loop&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="248" x="1482" y="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
